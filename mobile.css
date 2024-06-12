@@ -1,0 +1,48 @@
+html {
+  font-size: 12px;
+}
+
+#formContainer {
+  width: 90%;
+  height: 800px;
+  margin-top: 0;
+}
+
+/* s1 */
+
+.s1 .right,
+.s1 .left {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* s2 */
+
+.s2 .right {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.s2 .center,
+.s2 .left {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* s3 */
+
+.s3 .center {
+  width: 90%;
+}
+
+/* s4 */
+
+.s4 .right {
+  width: 50%;
+}
+
+/* info */
+
+#infoContainer {
+  width: 90%;
+}

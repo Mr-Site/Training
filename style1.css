@@ -1,0 +1,232 @@
+body {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #e2dfdf;
+}
+
+/* form */
+
+#formContainer {
+  width: 60%;
+  height: 700px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.9s;
+}
+
+#header {
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 750;
+  border-bottom: 1px solid #454444;
+}
+
+/* s1 */
+
+.s1 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.s1 .right,
+.s1 .left {
+  width: 45%;
+}
+
+.s1 input {
+  border: none;
+  transition: 0.6s;
+}
+
+/* s2 */
+
+.s2 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.s2 .right {
+  width: 45%;
+}
+
+.s2 .center,
+.s2 .left {
+  width: 22.5%;
+}
+
+.s2 input {
+  border: none;
+  transition: 0.6s;
+}
+
+/* s3 */
+.s3 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.s3 .center {
+  width: 95%;
+}
+
+.s3 input {
+  border: none;
+  transition: 0.6s;
+}
+
+/* s4 */
+
+.s4 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.s4 .right {
+  width: 45%;
+}
+
+.s4 .left {
+  width: 45%;
+  text-align: center;
+}
+
+.s4 select {
+  border: none;
+  transition: 0.6s;
+}
+
+/* buttons */
+
+.buttons {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button,
+.buttons a {
+  margin: 20px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background-color: rgb(117, 9, 77);
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+/* form end */
+
+/* info  */
+
+#infoContainer {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+  width: 60%;
+  height: 0;
+  opacity: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fff;
+  transition: 0.8s;
+}
+
+/* c1 */
+
+.c1 {
+  text-align: left;
+  margin: 20px;
+}
+
+/* c2 */
+
+.c2 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.c2 .right,
+.c2 .left {
+  margin: 20px;
+}
+
+/* c3 */
+.c3 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.c3 .right,
+.c3 .left {
+  margin: 20px;
+}
+
+/* c4 */
+
+.c4 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.c4 div {
+  margin: 20px;
+}
+
+/* c5 */
+
+.c5 {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.c5 div {
+  margin: 20px;
+}
+
+/* focus */
+
+.s1 input:focus,
+.s2 input:focus,
+.s3 input:focus,
+.s4 select:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
