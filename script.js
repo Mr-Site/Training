@@ -17,6 +17,13 @@ function addList() {
   const male = document.getElementById("male");
   const female = document.getElementById("female");
 
+  // for console log
+
+  const maleText = document.getElementById("male").value;
+  const femaleText = document.getElementById("female").value;
+
+  let userInfo = [];
+
   if (
     fName == "" ||
     lName == "" ||
@@ -47,6 +54,19 @@ function addList() {
     document.getElementById("infoCity").innerHTML = cityText;
 
     document.getElementById("infoHomeAddress").innerHTML = homeAddress;
+
+    userInfo.push({
+      fName,
+      lName,
+      phoneNumber,
+      age,
+      height,
+      homeAddress,
+      cityText,
+      maleText,
+    });
+
+    console.log(userInfo);
   } else if (female.checked) {
     document.getElementById("formContainer").style.height = "0";
     document.getElementById("formContainer").style.opacity = "0";
@@ -67,6 +87,19 @@ function addList() {
     document.getElementById("infoCity").innerHTML = cityText;
 
     document.getElementById("infoHomeAddress").innerHTML = homeAddress;
+
+    userInfo.push({
+      fName,
+      lName,
+      phoneNumber,
+      age,
+      height,
+      homeAddress,
+      cityText,
+      femaleText,
+    });
+
+    console.log(userInfo);
   }
 }
 
@@ -76,4 +109,6 @@ function goBack() {
 
   document.getElementById("infoContainer").style.height = "0";
   document.getElementById("infoContainer").style.opacity = "0";
+
+  console.log((userInfo = []));
 }
